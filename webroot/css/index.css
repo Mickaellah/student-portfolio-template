@@ -107,3 +107,15 @@ li {
   border-radius: 12px;
   border: 1px solid #5694e1;
   color: #5694e1; }
+
+.progress {
+  padding: 16px;
+  border-radius: 12px;
+  background-color: white;
+  margin-block-start: 48px;
+  max-width: 350px; }
+
+.progress__list_item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }

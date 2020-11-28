@@ -1,0 +1,13 @@
+.progress {
+    padding: 16px;
+    border-radius: 12px;
+    background-color: white;
+    margin-block-start: 48px;
+    max-width: 350px;
+}
+
+.progress__list_item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
