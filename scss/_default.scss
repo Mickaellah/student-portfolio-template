@@ -1,17 +1,14 @@
 body {
     margin: 0;
     padding: 0;
-    max-width: 1200px;
+    max-width: 1144px;
     margin-inline-start: auto;
     margin-inline-end: auto;
     margin-block-start: 50px;
     background-color: lightgrey;
 }
 
-main {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 16px;
-    column-gap: 16px;
+img {
+    border-radius: 12px;
 }
 
