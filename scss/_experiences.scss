@@ -1,0 +1,37 @@
+.experiences {
+    grid-row: 3 / 4;
+    grid-column: 3 / 6;
+    padding: 16px;
+    background-color: white;
+    border-radius: 12px;
+}
+
+.eperiences__description {
+    margin-block-start: 48px;
+}
+
+.eperiences__description--html::before {
+    content: url('../icons/icons8-html-5-64.png');
+}
+
+.experiences__html {
+    max-width: 400px;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    margin-block-start: -64px;
+}
+
+.eperiences__description--react {
+    margin-block-start: 48px;
+}
+
+.eperiences__description--react::before {
+    content: url('../icons/react.svg');
+}
+
+.experiences__react {
+    max-width: 400px;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    margin-block-start: -80px;
+}

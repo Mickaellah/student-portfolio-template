@@ -1,0 +1,21 @@
+.blog {
+    grid-row: 1 / 3;
+    grid-column: 3 / 6;
+    background-color: white;
+    border-radius: 12px;
+    padding: 16px;
+    background-image: url('../img/IMG_8202.JPG');
+    background-repeat: no-repeat;
+    background-position: 100% 20%;
+}
+
+.blog__heading {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.blog__content {
+    margin-block-start: 250px;
+    margin-inline-end: 48px ;
+    margin-block-end: 48px;
+}
