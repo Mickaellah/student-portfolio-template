@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    max-width: 1144px;
+    max-width: 1200px;
     margin-inline-start: auto;
     margin-inline-end: auto;
     margin-block-start: 50px;
@@ -10,5 +10,13 @@ body {
 
 img {
     border-radius: 12px;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
 }
 

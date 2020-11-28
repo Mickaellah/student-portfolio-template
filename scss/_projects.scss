@@ -1,0 +1,63 @@
+.projects__navigation_container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 16px;
+    column-gap: 16px;
+}
+
+.project__list_items {
+    padding: 16px;
+    border-radius: 12px;
+    background-color: white;
+}
+
+.projects__screenshot--tea {
+    width: 370px;
+    height: 351px;
+    object-fit: cover;
+}
+
+.projects__screenshot--edie {
+    width: 370px;
+    height: 357px;
+    object-fit: cover;
+}
+
+.projects__tea_time_topic{
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+}
+
+.projects__studio_ghibly {
+    grid-row: 1 / 2;
+    grid-column: 2 / 3;
+}
+
+.projects__edie_homepage {
+    grid-row: 1 / 2;
+    grid-column: 3 / 4;
+}
+
+.projects__buttons {
+    margin-block-start: 48px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.projects__demo_button {
+    padding-block: 12px;
+    padding-inline: 32px;
+    border-radius: 12px;
+    border: none;
+    background-color: #5694e1;
+    color: #ffffff;
+}
+
+.projects__code_button {
+    padding-block: 12px;
+    padding-inline: 32px;
+    border-radius: 12px;
+    border: 1px solid #5694e1;
+    color: #5694e1;
+}
