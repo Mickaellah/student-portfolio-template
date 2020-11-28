@@ -8,7 +8,7 @@ body {
     background-color: lightgrey;
 }
 
-#root {
+main {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 16px;
@@ -44,7 +44,5 @@ img {
 }
 
 .contact::before {
-    content: url('/email-24px.949ef630.svg');
+    content: url('../icons/email-24px.svg');
 }
-
-/*# sourceMappingURL=/styles.8986bff4.css.map */
