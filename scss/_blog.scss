@@ -4,18 +4,24 @@
     background-color: white;
     border-radius: 12px;
     padding: 16px;
-    background-image: url('../img/IMG_8202.JPG');
-    background-repeat: no-repeat;
-    background-position: 100% 20%;
 }
 
 .blog__heading {
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.blog__heading_container {
+    display: flex;
     flex-direction: column-reverse;
+}
+
+.blog__author {
+    margin-inline-end: -16px;
 }
 
 .blog__content {
     margin-block-start: 400px;
     margin-inline-end: 48px ;
-    // margin-block-end: -100px;
 }
